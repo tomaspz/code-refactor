@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Add a meaningful title for the website --> 
+    <!-- Use main keywords in the title for SEO reasons -->
+    
     <title>HoriSEOn, your best Online Management Partner that provides you with Search Engine Optimization, Online Reputation and Social Media Marketing</title>
 </head>
 
 <body>
 
     <!-- Create a semantic HTML header element with a unique ID -->
+    <!-- This ID is not used for CSS reasons, it is used to navigate within the page -->
     <header id="home">
 
         <!-- Remove <div class="header">, since we already have a header tag -->
 
         <!-- Create a link in the logo of the website to take the user Home --> 
 
-        <!-- Add the SEO word in between a <strong> tag, to make it more important for SEO purposes. I also made the word in capital letters -->
+        <!-- Add the SEO word in between a <strong> tag, to make it stand out for SEO purposes. I also made the word in capital letters -->
 
         <a href="#home"><h1>Hori<span class="seo"><strong>SEO</strong></span>n</h1></a>
         
@@ -53,12 +56,10 @@
         <!-- Move the class="content" inside the <section> tag. Remove the unused <div> tag -->
         <section class="content">
 
-            
-
                 <!-- Add a unique ID for the SEO div -->
                 <div id="search-engine-optimization">
                     <!-- Include an "alt" description of an image -->
-                    <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization"class="float-left" />
+                    <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
                     <h2>Search Engine Optimization</h2>
                     <p>
                         The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -82,11 +83,8 @@
                         Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
                     </p>
                 </div>
-        
 
         </section>
-
-    
 
     <!-- Create a semantic HTML aside element -->
         <aside>
@@ -96,7 +94,7 @@
                 <div class="benefit-lead">
                     <h3>Lead Generation</h3>
                     <!-- Include an "alt" description of an image -->
-                    <img src="./assets/images/lead-generation.png" alt="Lead Generation"/>
+                    <img src="./assets/images/lead-generation.png" alt="Black icon with a half settings wheel icon on top of a funnel and a dollar coin falling down "/>
                     <p>
                       Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                     </p>
@@ -105,7 +103,7 @@
                 <div class="benefit-brand">
                     <h3>Brand Awareness</h3>
                     <!-- Include an "alt" description of an image -->
-                    <img src="./assets/images/brand-awareness.png" alt="Brand Awareness"/>
+                    <img src="./assets/images/brand-awareness.png" alt="Black icon with a light bulb emiting waves"/>
                     <p>
                         Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                     </p>
@@ -114,7 +112,7 @@
                 <div class="benefit-cost">
                     <h3>Cost Management</h3>
                     <!-- Include an "alt" description of an image -->
-                    <img src="./assets/images/cost-management.png" alt="Cost Management"></img>
+                    <img src="./assets/images/cost-management.png" alt="Black icon with a settings wheel and 3 dollar coins in front"></img>
                     <p>
                         As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                     </p>
@@ -125,11 +123,13 @@
         </aside>
 
     </main>
+
     <!-- Create a semantic footer element -->
     <footer>
         
-        <div>
+        <div id="contact">
             <!-- Provide contact information -->
+            <!-- This increases credibility, SEO and a way for the potential customers to contact the company -->
             <ul>
                 <li><strong>Address:</strong> 453 Lindberg St, Atlanta GA 30305</li>
                 <li><strong>Phone:</strong><a href="tel:404-333-5555">404-333-5555</a></li>
@@ -141,9 +141,9 @@
         <br>
         <br>
 
-        <div>
+        <div id="copyright">
             <!-- Make a link to the Horiseon website -->
-            <!-- Change heading h2 to a paragraph-->
+            <!-- Change heading h2 to a paragraph -->
             <p>Made with ❤️️ by <a href="#home">Horiseon</a><p>
             <p>
                 &copy; 2019 <a href="#home">Horiseon Social Solution Services, Inc.</a>
