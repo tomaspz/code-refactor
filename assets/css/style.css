@@ -219,3 +219,12 @@ footer {
 footer ul {
     list-style-type: none;
 }
+
+#contact {
+
+}
+
+/* Reduce the size of the bottom footer (copyright info) */
+#copyright p {
+    font-size: 12px;
+}
